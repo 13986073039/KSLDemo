@@ -29,14 +29,24 @@ CGContextRef context = UIGraphicsGetCurrentContext();
 //写文
 CGContextSetRGBFillColor (context,  1, 0, 0, 1.0);//设置填充颜色
 UIFont  *font = [UIFont boldSystemFontOfSize:15.0];//设置
-[@"画圆：" drawInRect:CGRectMake(10, 20, 80, 20) withFont:font];
-[@"画线及孤线：" drawInRect:CGRectMake(10, 80, 100, 20) withFont:font];
-[@"画矩形：" drawInRect:CGRectMake(10, 120, 80, 20) withFont:font];
-[@"画扇形和椭圆：" drawInRect:CGRectMake(10, 160, 110, 20) withFont:font];
-[@"画三角形：" drawInRect:CGRectMake(10, 220, 80, 20) withFont:font];
-[@"画圆角矩形：" drawInRect:CGRectMake(10, 260, 100, 20) withFont:font];
-[@"画贝塞尔曲线：" drawInRect:CGRectMake(10, 300, 100, 20) withFont:font];
-[@"图片：" drawInRect:CGRectMake(10, 340, 80, 20) withFont:font];
+    
+    NSDictionary *attributeDic = @{NSFontAttributeName:font,NSForegroundColorAttributeName:[UIColor blackColor]};
+    [@"画圆：" drawInRect:CGRectMake(10, 20, 80, 20) withAttributes:attributeDic];
+    
+    [@"画线及孤线：" drawInRect:CGRectMake(10, 80, 100, 20) withAttributes:attributeDic];
+    
+    [@"画矩形：" drawInRect:CGRectMake(10, 120, 80, 20) withAttributes:attributeDic];
+    
+    [@"画扇形和椭圆：" drawInRect:CGRectMake(10, 160, 110, 20) withAttributes:attributeDic];
+    
+    [@"画三角形：" drawInRect:CGRectMake(10, 220, 80, 20) withAttributes:attributeDic];
+    
+    [@"画圆角矩形：" drawInRect:CGRectMake(10, 260, 100, 20) withAttributes:attributeDic];
+    
+    [@"画贝塞尔曲线：" drawInRect:CGRectMake(10, 300, 100, 20) withAttributes:attributeDic];
+    
+    [@"图片：" drawInRect:CGRectMake(10, 340, 80, 20) withAttributes:attributeDic];
+    
 
 /*画圆*/
 //边框圆
