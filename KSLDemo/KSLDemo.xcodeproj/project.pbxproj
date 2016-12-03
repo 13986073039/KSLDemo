@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */; };
+		3B01CF851DEABF7A008828C5 /* mascot_cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */; };
+		3B01CF881DEABFE8008828C5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01CF871DEABFE8008828C5 /* ThirdViewController.m */; };
+		3B01CF8B1DEAD90E008828C5 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01CF8A1DEAD90E008828C5 /* FourthViewController.m */; };
+		3B01CF8F1DEAD9AC008828C5 /* Quartz2dView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01CF8E1DEAD9AC008828C5 /* Quartz2dView.m */; };
+		3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */; };
+		3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */; };
+		3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */; };
+		3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */; };
+		3B37DD1D1DE9DDC600D5F0BD /* 火影.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD1C1DE9DDC600D5F0BD /* 火影.png */; };
+		3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */; };
+		3BB659C41DE1704C0002B4F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659C31DE1704C0002B4F7 /* main.m */; };
+		3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659C61DE1704C0002B4F7 /* AppDelegate.m */; };
+		3BB659CA1DE1704C0002B4F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659C91DE1704C0002B4F7 /* FirstViewController.m */; };
+		3BB659CD1DE1704C0002B4F7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659CC1DE1704C0002B4F7 /* SecondViewController.m */; };
+		3BB659D21DE1704C0002B4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB659D11DE1704C0002B4F7 /* Assets.xcassets */; };
+		3BB659D51DE1704C0002B4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB659D31DE1704C0002B4F7 /* LaunchScreen.storyboard */; };
+		3BB659DD1DE171D80002B4F7 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BB659DC1DE171D80002B4F7 /* status.plist */; };
+		3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659E61DE173810002B4F7 /* NSObject+KSLProperty.m */; };
+		3BB659EA1DE1769C0002B4F7 /* NSObject+KSLAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659E91DE1769C0002B4F7 /* NSObject+KSLAddProperty.m */; };
+		3BB659EE1DE17F1C0002B4F7 /* KSLAddMethodPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659ED1DE17F1C0002B4F7 /* KSLAddMethodPerson.m */; };
+		3BB659F11DE1971E0002B4F7 /* KSLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F01DE1971E0002B4F7 /* KSLRuntime.m */; };
+		3BB659F41DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F31DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.m */; };
+		3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F61DE1B5730002B4F7 /* KSLStatus.m */; };
+		3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */; };
+		3BB659FD1DE1BD850002B4F7 /* KSLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659FC1DE1BD850002B4F7 /* KSLUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mascot_bottom@2x.png"; sourceTree = "<group>"; };
+		3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mascot_cover@2x.png"; sourceTree = "<group>"; };
+		3B01CF861DEABFE8008828C5 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3B01CF871DEABFE8008828C5 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3B01CF891DEAD90E008828C5 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		3B01CF8A1DEAD90E008828C5 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		3B01CF8D1DEAD9AC008828C5 /* Quartz2dView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2dView.h; sourceTree = "<group>"; };
+		3B01CF8E1DEAD9AC008828C5 /* Quartz2dView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2dView.m; sourceTree = "<group>"; };
+		3B37DD0E1DE9AD8500D5F0BD /* UIImage+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSLExtension.h"; sourceTree = "<group>"; };
+		3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSLExtension.m"; sourceTree = "<group>"; };
+		3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡哇伊.jpg"; sourceTree = "<group>"; };
+		3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阿狸头像.png"; sourceTree = "<group>"; };
+		3B37DD171DE9D31D00D5F0BD /* UIView+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KSLExtension.h"; sourceTree = "<group>"; };
+		3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KSLExtension.m"; sourceTree = "<group>"; };
+		3B37DD1C1DE9DDC600D5F0BD /* 火影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影.png"; sourceTree = "<group>"; };
+		3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lucky_bucuo@2x.png"; sourceTree = "<group>"; };
+		3BB659BF1DE1704C0002B4F7 /* KSLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB659C31DE1704C0002B4F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB659C51DE1704C0002B4F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BB659C61DE1704C0002B4F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BB659C81DE1704C0002B4F7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3BB659C91DE1704C0002B4F7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3BB659CB1DE1704C0002B4F7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3BB659CC1DE1704C0002B4F7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3BB659D11DE1704C0002B4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB659D41DE1704C0002B4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB659D61DE1704C0002B4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB659DC1DE171D80002B4F7 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		3BB659E51DE173810002B4F7 /* NSObject+KSLProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KSLProperty.h"; sourceTree = "<group>"; };
+		3BB659E61DE173810002B4F7 /* NSObject+KSLProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KSLProperty.m"; sourceTree = "<group>"; };
+		3BB659E81DE1769C0002B4F7 /* NSObject+KSLAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KSLAddProperty.h"; sourceTree = "<group>"; };
+		3BB659E91DE1769C0002B4F7 /* NSObject+KSLAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KSLAddProperty.m"; sourceTree = "<group>"; };
+		3BB659EC1DE17F1C0002B4F7 /* KSLAddMethodPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLAddMethodPerson.h; sourceTree = "<group>"; };
+		3BB659ED1DE17F1C0002B4F7 /* KSLAddMethodPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLAddMethodPerson.m; sourceTree = "<group>"; };
+		3BB659EF1DE1971E0002B4F7 /* KSLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLRuntime.h; sourceTree = "<group>"; };
+		3BB659F01DE1971E0002B4F7 /* KSLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLRuntime.m; sourceTree = "<group>"; };
+		3BB659F21DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSLExchangeMethod.h"; sourceTree = "<group>"; };
+		3BB659F31DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSLExchangeMethod.m"; sourceTree = "<group>"; };
+		3BB659F51DE1B5730002B4F7 /* KSLStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLStatus.h; sourceTree = "<group>"; };
+		3BB659F61DE1B5730002B4F7 /* KSLStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLStatus.m; sourceTree = "<group>"; };
+		3BB659F81DE1B9270002B4F7 /* NSObject+KSLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KSLModel.h"; sourceTree = "<group>"; };
+		3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KSLModel.m"; sourceTree = "<group>"; };
+		3BB659FB1DE1BD850002B4F7 /* KSLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLUser.h; sourceTree = "<group>"; };
+		3BB659FC1DE1BD850002B4F7 /* KSLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLUser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB659BC1DE1704C0002B4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B01CF8C1DEAD957008828C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B01CF8D1DEAD9AC008828C5 /* Quartz2dView.h */,
+				3B01CF8E1DEAD9AC008828C5 /* Quartz2dView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B1993FF1DF2A39600702162 /* SQLite3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SQLite3;
+			sourceTree = "<group>";
+		};
+		3B37DD111DE9AE1700D5F0BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B37DD121DE9AE1700D5F0BD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B37DD121DE9AE1700D5F0BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */,
+				3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */,
+				3B37DD1C1DE9DDC600D5F0BD /* 火影.png */,
+				3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */,
+				3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */,
+				3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3BB659B61DE1704C0002B4F7 = {
+			isa = PBXGroup;
+			children = (
+				3BB659C11DE1704C0002B4F7 /* KSLDemo */,
+				3BB659C01DE1704C0002B4F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB659C01DE1704C0002B4F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB659BF1DE1704C0002B4F7 /* KSLDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB659C11DE1704C0002B4F7 /* KSLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3B1993FF1DF2A39600702162 /* SQLite3 */,
+				3BB659C51DE1704C0002B4F7 /* AppDelegate.h */,
+				3BB659C61DE1704C0002B4F7 /* AppDelegate.m */,
+				3BB659C81DE1704C0002B4F7 /* FirstViewController.h */,
+				3BB659C91DE1704C0002B4F7 /* FirstViewController.m */,
+				3BB659CB1DE1704C0002B4F7 /* SecondViewController.h */,
+				3BB659CC1DE1704C0002B4F7 /* SecondViewController.m */,
+				3B01CF861DEABFE8008828C5 /* ThirdViewController.h */,
+				3B01CF871DEABFE8008828C5 /* ThirdViewController.m */,
+				3B01CF891DEAD90E008828C5 /* FourthViewController.h */,
+				3B01CF8A1DEAD90E008828C5 /* FourthViewController.m */,
+				3B01CF8C1DEAD957008828C5 /* View */,
+				3BB659DE1DE172790002B4F7 /* Extension */,
+				3BB659EB1DE17E790002B4F7 /* KSLModel */,
+				3BB659D11DE1704C0002B4F7 /* Assets.xcassets */,
+				3BB659D31DE1704C0002B4F7 /* LaunchScreen.storyboard */,
+				3BB659D61DE1704C0002B4F7 /* Info.plist */,
+				3B37DD111DE9AE1700D5F0BD /* Resources */,
+				3BB659C21DE1704C0002B4F7 /* Supporting Files */,
+			);
+			path = KSLDemo;
+			sourceTree = "<group>";
+		};
+		3BB659C21DE1704C0002B4F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB659C31DE1704C0002B4F7 /* main.m */,
+				3BB659DC1DE171D80002B4F7 /* status.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB659DE1DE172790002B4F7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BB659E51DE173810002B4F7 /* NSObject+KSLProperty.h */,
+				3BB659E61DE173810002B4F7 /* NSObject+KSLProperty.m */,
+				3BB659E81DE1769C0002B4F7 /* NSObject+KSLAddProperty.h */,
+				3BB659E91DE1769C0002B4F7 /* NSObject+KSLAddProperty.m */,
+				3BB659F81DE1B9270002B4F7 /* NSObject+KSLModel.h */,
+				3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */,
+				3BB659F21DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.h */,
+				3BB659F31DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.m */,
+				3B37DD0E1DE9AD8500D5F0BD /* UIImage+KSLExtension.h */,
+				3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */,
+				3B37DD171DE9D31D00D5F0BD /* UIView+KSLExtension.h */,
+				3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3BB659EB1DE17E790002B4F7 /* KSLModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BB659EC1DE17F1C0002B4F7 /* KSLAddMethodPerson.h */,
+				3BB659ED1DE17F1C0002B4F7 /* KSLAddMethodPerson.m */,
+				3BB659EF1DE1971E0002B4F7 /* KSLRuntime.h */,
+				3BB659F01DE1971E0002B4F7 /* KSLRuntime.m */,
+				3BB659F51DE1B5730002B4F7 /* KSLStatus.h */,
+				3BB659F61DE1B5730002B4F7 /* KSLStatus.m */,
+				3BB659FB1DE1BD850002B4F7 /* KSLUser.h */,
+				3BB659FC1DE1BD850002B4F7 /* KSLUser.m */,
+			);
+			path = KSLModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB659BE1DE1704C0002B4F7 /* KSLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB659D91DE1704C0002B4F7 /* Build configuration list for PBXNativeTarget "KSLDemo" */;
+			buildPhases = (
+				3BB659BB1DE1704C0002B4F7 /* Sources */,
+				3BB659BC1DE1704C0002B4F7 /* Frameworks */,
+				3BB659BD1DE1704C0002B4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSLDemo;
+			productName = KSLDemo;
+			productReference = 3BB659BF1DE1704C0002B4F7 /* KSLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB659B71DE1704C0002B4F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GePingTech;
+				TargetAttributes = {
+					3BB659BE1DE1704C0002B4F7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BB659BA1DE1704C0002B4F7 /* Build configuration list for PBXProject "KSLDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB659B61DE1704C0002B4F7;
+			productRefGroup = 3BB659C01DE1704C0002B4F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB659BE1DE1704C0002B4F7 /* KSLDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB659BD1DE1704C0002B4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */,
+				3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */,
+				3BB659D51DE1704C0002B4F7 /* LaunchScreen.storyboard in Resources */,
+				3BB659DD1DE171D80002B4F7 /* status.plist in Resources */,
+				3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */,
+				3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */,
+				3B01CF851DEABF7A008828C5 /* mascot_cover@2x.png in Resources */,
+				3BB659D21DE1704C0002B4F7 /* Assets.xcassets in Resources */,
+				3B37DD1D1DE9DDC600D5F0BD /* 火影.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB659BB1DE1704C0002B4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB659CD1DE1704C0002B4F7 /* SecondViewController.m in Sources */,
+				3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */,
+				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,
+				3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */,
+				3BB659EE1DE17F1C0002B4F7 /* KSLAddMethodPerson.m in Sources */,
+				3BB659EA1DE1769C0002B4F7 /* NSObject+KSLAddProperty.m in Sources */,
+				3BB659F11DE1971E0002B4F7 /* KSLRuntime.m in Sources */,
+				3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */,
+				3B01CF8B1DEAD90E008828C5 /* FourthViewController.m in Sources */,
+				3B01CF8F1DEAD9AC008828C5 /* Quartz2dView.m in Sources */,
+				3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */,
+				3BB659CA1DE1704C0002B4F7 /* FirstViewController.m in Sources */,
+				3BB659F41DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.m in Sources */,
+				3B01CF881DEABFE8008828C5 /* ThirdViewController.m in Sources */,
+				3BB659FD1DE1BD850002B4F7 /* KSLUser.m in Sources */,
+				3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */,
+				3BB659C41DE1704C0002B4F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BB659D31DE1704C0002B4F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB659D41DE1704C0002B4F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB659D71DE1704C0002B4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BB659D81DE1704C0002B4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB659DA1DE1704C0002B4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyibang.KSLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BB659DB1DE1704C0002B4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyibang.KSLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB659BA1DE1704C0002B4F7 /* Build configuration list for PBXProject "KSLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB659D71DE1704C0002B4F7 /* Debug */,
+				3BB659D81DE1704C0002B4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB659D91DE1704C0002B4F7 /* Build configuration list for PBXNativeTarget "KSLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB659DA1DE1704C0002B4F7 /* Debug */,
+				3BB659DB1DE1704C0002B4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB659B71DE1704C0002B4F7 /* Project object */;
+}
