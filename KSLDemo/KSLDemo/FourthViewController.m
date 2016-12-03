@@ -8,6 +8,9 @@
 
 #import "FourthViewController.h"
 #import "Quartz2dView.h"
+#import "KSLStatus.h"
+#import "KSLUser.h"
+#import "NSObject+KSLModel.h"
 
 @interface FourthViewController ()
 
@@ -32,6 +35,30 @@
     [view setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:view];
     [view setNeedsDisplay];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSArray *status = [self statusFromFile];
+    for (KSLStatus *aStatus in status) {
+        KSLUser *aUser = aStatus.user;
+        [aUser insertToDatabase];
+    }
+}
+
+- (NSArray *)statusFromFile
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"status.plist" ofType:nil];
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    NSArray *dictArr = dict[@"statuses"];
+    
+    NSMutableArray *statuses = [NSMutableArray array];
+    // 遍历字典数组
+    for (NSDictionary *dict in dictArr) {
+        KSLStatus *status = [KSLStatus modelWithDict:dict];
+        [statuses addObject:status];
+    }
+    return statuses;
 }
 
 - (void)didReceiveMemoryWarning {

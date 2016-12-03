@@ -10,14 +10,16 @@
 
 @interface KSLUser : NSObject
 
-@property (nonatomic, strong) NSString *profile_image_url;
+@property (nonatomic, copy) NSString *profile_image_url;
 
 @property (nonatomic, assign) BOOL vip;
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, copy) NSString *name;
 
 @property (nonatomic, assign) NSInteger mbrank;
 
 @property (nonatomic, assign) NSInteger mbtype;
+
+- (void)insertToDatabase;
 
 @end

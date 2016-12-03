@@ -18,6 +18,8 @@
 		3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */; };
 		3B37DD1D1DE9DDC600D5F0BD /* 火影.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD1C1DE9DDC600D5F0BD /* 火影.png */; };
 		3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */; };
+		3BA02C511DFD3ED900D625E9 /* KSLSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */; };
+		3BA02C541DFD3ED900D625E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA02C531DFD3ED900D625E9 /* libsqlite3.tbd */; };
 		3BB659C41DE1704C0002B4F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659C31DE1704C0002B4F7 /* main.m */; };
 		3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659C61DE1704C0002B4F7 /* AppDelegate.m */; };
 		3BB659CA1DE1704C0002B4F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659C91DE1704C0002B4F7 /* FirstViewController.m */; };
@@ -52,6 +54,9 @@
 		3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KSLExtension.m"; sourceTree = "<group>"; };
 		3B37DD1C1DE9DDC600D5F0BD /* 火影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影.png"; sourceTree = "<group>"; };
 		3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lucky_bucuo@2x.png"; sourceTree = "<group>"; };
+		3BA02C4F1DFD3ED900D625E9 /* KSLSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSLSQLiteManager.h; path = KSLDemo/KSLSQLiteManager.h; sourceTree = SOURCE_ROOT; };
+		3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSLSQLiteManager.m; path = KSLDemo/KSLSQLiteManager.m; sourceTree = SOURCE_ROOT; };
+		3BA02C531DFD3ED900D625E9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3BB659BF1DE1704C0002B4F7 /* KSLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB659C31DE1704C0002B4F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BB659C51DE1704C0002B4F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA02C541DFD3ED900D625E9 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +111,8 @@
 		3B1993FF1DF2A39600702162 /* SQLite3 */ = {
 			isa = PBXGroup;
 			children = (
+				3BA02C4F1DFD3ED900D625E9 /* KSLSQLiteManager.h */,
+				3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */,
 			);
 			path = SQLite3;
 			sourceTree = "<group>";
@@ -130,11 +138,20 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		3BA02C521DFD3ED900D625E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA02C531DFD3ED900D625E9 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BB659B61DE1704C0002B4F7 = {
 			isa = PBXGroup;
 			children = (
 				3BB659C11DE1704C0002B4F7 /* KSLDemo */,
 				3BB659C01DE1704C0002B4F7 /* Products */,
+				3BA02C521DFD3ED900D625E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,7 +166,6 @@
 		3BB659C11DE1704C0002B4F7 /* KSLDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3B1993FF1DF2A39600702162 /* SQLite3 */,
 				3BB659C51DE1704C0002B4F7 /* AppDelegate.h */,
 				3BB659C61DE1704C0002B4F7 /* AppDelegate.m */,
 				3BB659C81DE1704C0002B4F7 /* FirstViewController.h */,
@@ -163,6 +179,7 @@
 				3B01CF8C1DEAD957008828C5 /* View */,
 				3BB659DE1DE172790002B4F7 /* Extension */,
 				3BB659EB1DE17E790002B4F7 /* KSLModel */,
+				3B1993FF1DF2A39600702162 /* SQLite3 */,
 				3BB659D11DE1704C0002B4F7 /* Assets.xcassets */,
 				3BB659D31DE1704C0002B4F7 /* LaunchScreen.storyboard */,
 				3BB659D61DE1704C0002B4F7 /* Info.plist */,
@@ -292,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA02C511DFD3ED900D625E9 /* KSLSQLiteManager.m in Sources */,
 				3BB659CD1DE1704C0002B4F7 /* SecondViewController.m in Sources */,
 				3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */,
 				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,

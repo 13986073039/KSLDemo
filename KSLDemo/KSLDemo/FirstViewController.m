@@ -59,6 +59,8 @@
     [self setupSubviews];
     
     [self setupNextViewButton];
+    
+    [self setupSQLite];
 }
 
 - (void)setupSubviews
@@ -222,6 +224,11 @@
     }
     
     NSLog(@"%@",statuses);
+}
+
+- (void)setupSQLite
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {
