@@ -8,6 +8,7 @@
 
 #import "DeepShallowCopyViewController.h"
 #import "KSLUser.h"
+#import "KSLTools.h"
 
 @interface DeepShallowCopyViewController ()
 
@@ -21,6 +22,10 @@
     self.title = @"CopyView";
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self setupSubviews];
+    
+    KSLTools *tool1 = [KSLTools shareKSLTools];
+    KSLTools *tool2 = [[KSLTools alloc] init];
+    NSLog(@"%@.....%@",tool1,tool2);
 }
 
 - (void)setupSubviews
