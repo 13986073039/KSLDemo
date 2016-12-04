@@ -11,6 +11,7 @@
 #import "KSLStatus.h"
 #import "KSLUser.h"
 #import "NSObject+KSLModel.h"
+#import "DeepShallowCopyViewController.h"
 
 @interface FourthViewController ()
 
@@ -25,6 +26,7 @@
     // Do any additional setup after loading the view.
     
     [self setupSubviews];
+    [self setupNextViewButton];
     
 }
 
@@ -60,6 +62,23 @@
     }
     return statuses;
 }
+
+- (void)setupNextViewButton
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44);
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:btn];
+}
+
+- (void)showNextView:(id)sender
+{
+    DeepShallowCopyViewController *copyView = [[DeepShallowCopyViewController alloc] init];
+    [self.navigationController pushViewController:copyView animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

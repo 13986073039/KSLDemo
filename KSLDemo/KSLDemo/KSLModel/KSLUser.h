@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KSLUser : NSObject
+@interface KSLUser : NSObject<NSCopying,NSMutableCopying>
 
 @property (nonatomic, copy) NSString *profile_image_url;
 

@@ -23,4 +23,28 @@
     }
 }
 
+#pragma mark - NSCopying NSMutableCopying
+-(id)copyWithZone:(NSZone *)zone
+{
+    KSLUser *aUser = [[self class] allocWithZone:zone];
+    [self assignUser:aUser];
+    return aUser;
+}
+
+- (id)mutableCopyWithZone:(NSZone *)zone
+{
+    KSLUser *aUser = [[self class] allocWithZone:zone];
+    [self assignUser:aUser];
+    return aUser;
+}
+
+- (void)assignUser:(KSLUser *)aUser
+{
+    aUser.profile_image_url = _profile_image_url;
+    aUser.vip = _vip;
+    aUser.name = _name;
+    aUser.mbrank = _mbrank;
+    aUser.mbtype = _mbtype;
+}
+
 @end
