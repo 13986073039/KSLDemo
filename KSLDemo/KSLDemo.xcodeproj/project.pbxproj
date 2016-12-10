@@ -17,6 +17,8 @@
 		3B1148441DFC243C00F05002 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11483C1DFC243C00F05002 /* FourthViewController.m */; };
 		3B1148451DFC243C00F05002 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11483E1DFC243C00F05002 /* SecondViewController.m */; };
 		3B1148461DFC243C00F05002 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1148401DFC243C00F05002 /* ThirdViewController.m */; };
+		3B11484A1DFC26BD00F05002 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */; };
+		3B11484D1DFC2E4100F05002 /* UIColor+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11484C1DFC2E4100F05002 /* UIColor+KSLExtension.m */; };
 		3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */; };
 		3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */; };
 		3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */; };
@@ -60,6 +62,10 @@
 		3B11483E1DFC243C00F05002 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3B11483F1DFC243C00F05002 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		3B1148401DFC243C00F05002 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3B1148481DFC26BD00F05002 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
+		3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		3B11484B1DFC2E4100F05002 /* UIColor+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KSLExtension.h"; sourceTree = "<group>"; };
+		3B11484C1DFC2E4100F05002 /* UIColor+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KSLExtension.m"; sourceTree = "<group>"; };
 		3B37DD0E1DE9AD8500D5F0BD /* UIImage+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSLExtension.h"; sourceTree = "<group>"; };
 		3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSLExtension.m"; sourceTree = "<group>"; };
 		3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡哇伊.jpg"; sourceTree = "<group>"; };
@@ -135,8 +141,18 @@
 				3B11483E1DFC243C00F05002 /* SecondViewController.m */,
 				3B11483F1DFC243C00F05002 /* ThirdViewController.h */,
 				3B1148401DFC243C00F05002 /* ThirdViewController.m */,
+				3B1148471DFC259400F05002 /* Animations */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3B1148471DFC259400F05002 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3B1148481DFC26BD00F05002 /* ImplicitAnimationViewController.h */,
+				3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		3B1993FF1DF2A39600702162 /* SQLite3 */ = {
@@ -250,6 +266,8 @@
 				3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */,
 				3B37DD171DE9D31D00D5F0BD /* UIView+KSLExtension.h */,
 				3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */,
+				3B11484B1DFC2E4100F05002 /* UIColor+KSLExtension.h */,
+				3B11484C1DFC2E4100F05002 /* UIColor+KSLExtension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -346,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B11484A1DFC26BD00F05002 /* ImplicitAnimationViewController.m in Sources */,
 				3BA02C511DFD3ED900D625E9 /* KSLSQLiteManager.m in Sources */,
 				3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */,
 				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,
@@ -361,6 +380,7 @@
 				3B1148451DFC243C00F05002 /* SecondViewController.m in Sources */,
 				3B01CF8F1DEAD9AC008828C5 /* Quartz2dView.m in Sources */,
 				3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */,
+				3B11484D1DFC2E4100F05002 /* UIColor+KSLExtension.m in Sources */,
 				3BB659F41DE1ACEE0002B4F7 /* UIImage+KSLExchangeMethod.m in Sources */,
 				3B458A571DF43041006C83B1 /* KSLTools.m in Sources */,
 				3B1148441DFC243C00F05002 /* FourthViewController.m in Sources */,

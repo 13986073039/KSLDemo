@@ -7,6 +7,7 @@
 //
 
 #import "ClockViewController.h"
+#import "ImplicitAnimationViewController.h"
 
 #define angleToRad(angle) ((angle)/180.0 * M_PI)
 
@@ -54,6 +55,8 @@ const CGFloat perMinuteHourA = 0.5;
     [self addHourHandLayer];
     [self addMinuteHandLayer];
     [self addSecondHandLayer];
+    
+    [self setupNextViewButton];
 }
 
 - (void)addTimer
@@ -115,6 +118,24 @@ const CGFloat perMinuteHourA = 0.5;
     self.secondLayer = layer;
     [self.clockView.layer addSublayer:layer];
 }
+
+
+- (void)setupNextViewButton
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44);
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:btn];
+}
+
+- (void)showNextView:(id)sender
+{
+    ImplicitAnimationViewController *animationView = [[ImplicitAnimationViewController alloc] init];
+    [self.navigationController pushViewController:animationView animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
