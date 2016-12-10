@@ -9,8 +9,6 @@
 #import "ClockViewController.h"
 #import "ImplicitAnimationViewController.h"
 
-#define angleToRad(angle) ((angle)/180.0 * M_PI)
-
 //秒针每一秒旋转的度数
 const CGFloat perSecondA = 6;
 
@@ -61,8 +59,9 @@ const CGFloat perMinuteHourA = 0.5;
 
 - (void)addTimer
 {
+    WEAK(self)
     [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
-        [self timeChanged];
+        [weakself timeChanged];
     }];
     [self timeChanged];
 }
@@ -141,6 +140,12 @@ const CGFloat perMinuteHourA = 0.5;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)dealloc
+{
+    NSLog(@"[--dealloc: %@--]",NSStringFromClass(self.class));
+}
+
 
 /*
 #pragma mark - Navigation

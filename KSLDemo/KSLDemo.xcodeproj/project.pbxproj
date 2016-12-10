@@ -19,6 +19,8 @@
 		3B1148461DFC243C00F05002 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1148401DFC243C00F05002 /* ThirdViewController.m */; };
 		3B11484A1DFC26BD00F05002 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */; };
 		3B11484D1DFC2E4100F05002 /* UIColor+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11484C1DFC2E4100F05002 /* UIColor+KSLExtension.m */; };
+		3B1148501DFC4C3200F05002 /* KeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */; };
+		3B1148521DFC4E0100F05002 /* caipiao163@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1148511DFC4E0100F05002 /* caipiao163@2x.png */; };
 		3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */; };
 		3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */; };
 		3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */; };
@@ -66,6 +68,9 @@
 		3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
 		3B11484B1DFC2E4100F05002 /* UIColor+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KSLExtension.h"; sourceTree = "<group>"; };
 		3B11484C1DFC2E4100F05002 /* UIColor+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KSLExtension.m"; sourceTree = "<group>"; };
+		3B11484E1DFC4C3200F05002 /* KeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationViewController.m; sourceTree = "<group>"; };
+		3B1148511DFC4E0100F05002 /* caipiao163@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caipiao163@2x.png"; sourceTree = "<group>"; };
 		3B37DD0E1DE9AD8500D5F0BD /* UIImage+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSLExtension.h"; sourceTree = "<group>"; };
 		3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSLExtension.m"; sourceTree = "<group>"; };
 		3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡哇伊.jpg"; sourceTree = "<group>"; };
@@ -151,6 +156,8 @@
 			children = (
 				3B1148481DFC26BD00F05002 /* ImplicitAnimationViewController.h */,
 				3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */,
+				3B11484E1DFC4C3200F05002 /* KeyFrameAnimationViewController.h */,
+				3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 				3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */,
 				3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */,
 				3B11482F1DFBEF1300F05002 /* clockIcon.png */,
+				3B1148511DFC4E0100F05002 /* caipiao163@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -353,6 +361,7 @@
 				3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */,
 				3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */,
 				3B01CF851DEABF7A008828C5 /* mascot_cover@2x.png in Resources */,
+				3B1148521DFC4E0100F05002 /* caipiao163@2x.png in Resources */,
 				3BB659D21DE1704C0002B4F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +394,7 @@
 				3B458A571DF43041006C83B1 /* KSLTools.m in Sources */,
 				3B1148441DFC243C00F05002 /* FourthViewController.m in Sources */,
 				3BB659FD1DE1BD850002B4F7 /* KSLUser.m in Sources */,
+				3B1148501DFC4C3200F05002 /* KeyFrameAnimationViewController.m in Sources */,
 				3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */,
 				3BB659C41DE1704C0002B4F7 /* main.m in Sources */,
 			);
