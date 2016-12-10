@@ -12,6 +12,7 @@
 		3B01CF881DEABFE8008828C5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01CF871DEABFE8008828C5 /* ThirdViewController.m */; };
 		3B01CF8B1DEAD90E008828C5 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01CF8A1DEAD90E008828C5 /* FourthViewController.m */; };
 		3B01CF8F1DEAD9AC008828C5 /* Quartz2dView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01CF8E1DEAD9AC008828C5 /* Quartz2dView.m */; };
+		3B1148301DFBEF1300F05002 /* clockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B11482F1DFBEF1300F05002 /* clockIcon.png */; };
 		3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */; };
 		3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */; };
 		3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */; };
@@ -36,6 +37,7 @@
 		3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F61DE1B5730002B4F7 /* KSLStatus.m */; };
 		3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */; };
 		3BB659FD1DE1BD850002B4F7 /* KSLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659FC1DE1BD850002B4F7 /* KSLUser.m */; };
+		3BCAA7091DFBEBEF005A64CC /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAA7081DFBEBEF005A64CC /* ClockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		3B01CF8A1DEAD90E008828C5 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		3B01CF8D1DEAD9AC008828C5 /* Quartz2dView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2dView.h; sourceTree = "<group>"; };
 		3B01CF8E1DEAD9AC008828C5 /* Quartz2dView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2dView.m; sourceTree = "<group>"; };
+		3B11482F1DFBEF1300F05002 /* clockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon.png; sourceTree = "<group>"; };
+		3B1148311DFBF52200F05002 /* KSLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLDefine.h; sourceTree = "<group>"; };
+		3B1148321DFBF63100F05002 /* KSLDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLDemo.pch; sourceTree = "<group>"; };
 		3B37DD0E1DE9AD8500D5F0BD /* UIImage+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSLExtension.h"; sourceTree = "<group>"; };
 		3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSLExtension.m"; sourceTree = "<group>"; };
 		3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡哇伊.jpg"; sourceTree = "<group>"; };
@@ -90,6 +95,8 @@
 		3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KSLModel.m"; sourceTree = "<group>"; };
 		3BB659FB1DE1BD850002B4F7 /* KSLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLUser.h; sourceTree = "<group>"; };
 		3BB659FC1DE1BD850002B4F7 /* KSLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLUser.m; sourceTree = "<group>"; };
+		3BCAA7071DFBEBEF005A64CC /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		3BCAA7081DFBEBEF005A64CC /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +145,7 @@
 				3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */,
 				3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */,
 				3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */,
+				3B11482F1DFBEF1300F05002 /* clockIcon.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -193,6 +201,8 @@
 				3B01CF8A1DEAD90E008828C5 /* FourthViewController.m */,
 				3B46CE451DF40E0400E010F9 /* DeepShallowCopyViewController.h */,
 				3B46CE461DF40E0400E010F9 /* DeepShallowCopyViewController.m */,
+				3BCAA7071DFBEBEF005A64CC /* ClockViewController.h */,
+				3BCAA7081DFBEBEF005A64CC /* ClockViewController.m */,
 				3B01CF8C1DEAD957008828C5 /* View */,
 				3BB659DE1DE172790002B4F7 /* Extension */,
 				3BB659EB1DE17E790002B4F7 /* KSLModel */,
@@ -210,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				3BB659C31DE1704C0002B4F7 /* main.m */,
+				3B1148311DFBF52200F05002 /* KSLDefine.h */,
+				3B1148321DFBF63100F05002 /* KSLDemo.pch */,
 				3BB659DC1DE171D80002B4F7 /* status.plist */,
 			);
 			name = "Supporting Files";
@@ -310,6 +322,7 @@
 				3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */,
 				3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */,
 				3BB659D51DE1704C0002B4F7 /* LaunchScreen.storyboard in Resources */,
+				3B1148301DFBEF1300F05002 /* clockIcon.png in Resources */,
 				3BB659DD1DE171D80002B4F7 /* status.plist in Resources */,
 				3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */,
 				3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */,
@@ -331,6 +344,7 @@
 				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,
 				3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */,
 				3BB659EE1DE17F1C0002B4F7 /* KSLAddMethodPerson.m in Sources */,
+				3BCAA7091DFBEBEF005A64CC /* ClockViewController.m in Sources */,
 				3BB659EA1DE1769C0002B4F7 /* NSObject+KSLAddProperty.m in Sources */,
 				3BB659F11DE1971E0002B4F7 /* KSLRuntime.m in Sources */,
 				3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */,
@@ -456,6 +470,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KSLDemo/KSLDemo.pch";
 				INFOPLIST_FILE = KSLDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boyibang.KSLDemo;
@@ -467,6 +483,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KSLDemo/KSLDemo.pch";
 				INFOPLIST_FILE = KSLDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boyibang.KSLDemo;

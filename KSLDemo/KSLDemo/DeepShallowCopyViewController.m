@@ -9,6 +9,7 @@
 #import "DeepShallowCopyViewController.h"
 #import "KSLUser.h"
 #import "KSLTools.h"
+#import "ClockViewController.h"
 
 @interface DeepShallowCopyViewController ()
 
@@ -33,6 +34,8 @@
     [self copy1];
     [self copy2];
     [self copy3];
+    
+    [self setupNextViewButton];
 }
 
 - (void)copy1
@@ -43,7 +46,7 @@
     NSArray *array2 = [array1 copy];
     NSArray *array3 = [[NSArray alloc] initWithArray:array1 copyItems:YES];
     
-    
+    NSLog(@"---------------1 begin");
     for (int i = 0; i < [array1 count]; i++)
     {
         NSLog(@"%p",array1[i]);
@@ -51,6 +54,7 @@
         NSLog(@"%p",array3[i]);
         NSLog(@"---------------");
     }
+    NSLog(@"---------------1 end");
 }
 
 - (void)copy2
@@ -60,15 +64,26 @@
     NSArray *array1 = [NSArray arrayWithObjects:str1,str2, nil];
     NSArray *array2 = [array1 copy];
     NSArray *array3 = [[NSArray alloc] initWithArray:array1 copyItems:YES];
+    NSArray *array4 = [array1 mutableCopy];
     
-    
+    NSLog(@"---------------2 begin");
     for (int i = 0; i < [array1 count]; i++)
     {
-        NSLog(@"%p",array1[i]);
-        NSLog(@"%p",array2[i]);
-        NSLog(@"%p",array3[i]);
+        if (i == 0) {
+            NSLog(@"str1 = %p",str1);
+        }
+        else
+        {
+            NSLog(@"str2 = %p",str2);
+        }
+        
+        NSLog(@"array1 %p",array1[i]);
+        NSLog(@"array2 %p",array2[i]);
+        NSLog(@"array3 %p",array3[i]);
+        NSLog(@"array4 %p",array4[i]);
         NSLog(@"---------------");
     }
+    NSLog(@"---------------2 end");
 }
 
 - (void)copy3
@@ -129,6 +144,23 @@
     NSLog(@"%@",user4.profile_image_url);
     NSLog(@"%@",user2.profile_image_url);
 }
+
+- (void)setupNextViewButton
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44);
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:btn];
+}
+
+- (void)showNextView:(id)sender
+{
+    ClockViewController *clockView = [[ClockViewController alloc] init];
+    [self.navigationController pushViewController:clockView animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
