@@ -4,10 +4,10 @@
 //
 //  Created by 孔森林 on 2016/12/10.
 //  Copyright © 2016年 GePingTech. All rights reserved.
-//
+//  桢动画
 
 #import "KeyFrameAnimationViewController.h"
-#import "KeyFrameAnimationViewController.h"
+#import "TransitionViewController.h"
 
 @interface KeyFrameAnimationViewController ()
 
@@ -24,6 +24,8 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self setupSubviews];
+    
+    [self setupNextViewButton];
 }
 
 - (void)setupSubviews
@@ -82,7 +84,7 @@
 
 - (void)showNextView:(id)sender
 {
-    KeyFrameAnimationViewController *animationView = [[KeyFrameAnimationViewController alloc] init];
+    TransitionViewController *animationView = [[TransitionViewController alloc] init];
     [self.navigationController pushViewController:animationView animated:YES];
 }
 

@@ -27,6 +27,10 @@
 		3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD181DE9D31D00D5F0BD /* UIView+KSLExtension.m */; };
 		3B458A571DF43041006C83B1 /* KSLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B458A561DF43041006C83B1 /* KSLTools.m */; };
 		3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */; };
+		3B5E50E41DFCD7130014ECBF /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E50E31DFCD7130014ECBF /* TransitionViewController.m */; };
+		3B5E50E81DFCD7730014ECBF /* page_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E50E51DFCD7730014ECBF /* page_1.png */; };
+		3B5E50E91DFCD7730014ECBF /* page_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E50E61DFCD7730014ECBF /* page_2.png */; };
+		3B5E50EA1DFCD7730014ECBF /* page_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E50E71DFCD7730014ECBF /* page_3.png */; };
 		3B7A12ED1DFC344800E503E1 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7A12EC1DFC344800E503E1 /* heart.png */; };
 		3BA02C511DFD3ED900D625E9 /* KSLSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */; };
 		3BA02C541DFD3ED900D625E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA02C531DFD3ED900D625E9 /* libsqlite3.tbd */; };
@@ -82,6 +86,11 @@
 		3B458A551DF43041006C83B1 /* KSLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLTools.h; sourceTree = "<group>"; };
 		3B458A561DF43041006C83B1 /* KSLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLTools.m; sourceTree = "<group>"; };
 		3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lucky_bucuo@2x.png"; sourceTree = "<group>"; };
+		3B5E50E21DFCD7130014ECBF /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		3B5E50E31DFCD7130014ECBF /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
+		3B5E50E51DFCD7730014ECBF /* page_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_1.png; sourceTree = "<group>"; };
+		3B5E50E61DFCD7730014ECBF /* page_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_2.png; sourceTree = "<group>"; };
+		3B5E50E71DFCD7730014ECBF /* page_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_3.png; sourceTree = "<group>"; };
 		3B7A12EC1DFC344800E503E1 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		3BA02C4F1DFD3ED900D625E9 /* KSLSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSLSQLiteManager.h; path = KSLDemo/KSLSQLiteManager.h; sourceTree = SOURCE_ROOT; };
 		3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSLSQLiteManager.m; path = KSLDemo/KSLSQLiteManager.m; sourceTree = SOURCE_ROOT; };
@@ -160,6 +169,8 @@
 				3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */,
 				3B11484E1DFC4C3200F05002 /* KeyFrameAnimationViewController.h */,
 				3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */,
+				3B5E50E21DFCD7130014ECBF /* TransitionViewController.h */,
+				3B5E50E31DFCD7130014ECBF /* TransitionViewController.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -190,10 +201,11 @@
 				3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */,
 				3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */,
 				3B11482F1DFBEF1300F05002 /* clockIcon.png */,
-
 				3B1148511DFC4E0100F05002 /* caipiao163@2x.png */,
-
 				3B7A12EC1DFC344800E503E1 /* heart.png */,
+				3B5E50E51DFCD7730014ECBF /* page_1.png */,
+				3B5E50E61DFCD7730014ECBF /* page_2.png */,
+				3B5E50E71DFCD7730014ECBF /* page_3.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -358,12 +370,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5E50EA1DFCD7730014ECBF /* page_3.png in Resources */,
 				3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */,
 				3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */,
 				3B7A12ED1DFC344800E503E1 /* heart.png in Resources */,
 				3BB659D51DE1704C0002B4F7 /* LaunchScreen.storyboard in Resources */,
 				3B1148301DFBEF1300F05002 /* clockIcon.png in Resources */,
 				3BB659DD1DE171D80002B4F7 /* status.plist in Resources */,
+				3B5E50E91DFCD7730014ECBF /* page_2.png in Resources */,
+				3B5E50E81DFCD7730014ECBF /* page_1.png in Resources */,
 				3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */,
 				3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */,
 				3B01CF851DEABF7A008828C5 /* mascot_cover@2x.png in Resources */,
@@ -387,6 +402,7 @@
 				3B1148461DFC243C00F05002 /* ThirdViewController.m in Sources */,
 				3BB659EE1DE17F1C0002B4F7 /* KSLAddMethodPerson.m in Sources */,
 				3B1148431DFC243C00F05002 /* FirstViewController.m in Sources */,
+				3B5E50E41DFCD7130014ECBF /* TransitionViewController.m in Sources */,
 				3B1148411DFC243C00F05002 /* ClockViewController.m in Sources */,
 				3BB659EA1DE1769C0002B4F7 /* NSObject+KSLAddProperty.m in Sources */,
 				3BB659F11DE1971E0002B4F7 /* KSLRuntime.m in Sources */,
