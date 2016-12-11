@@ -7,6 +7,7 @@
 //  转场动画
 
 #import "TransitionViewController.h"
+#import "GroupAnimationViewController.h"
 
 @interface TransitionViewController ()
 
@@ -24,6 +25,8 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self setupSubviews];
+    
+    [self setupNextViewButton];
 }
 
 - (void)setupSubviews
@@ -99,6 +102,23 @@
     } completion:nil];
 
 }
+
+- (void)setupNextViewButton
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44);
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:btn];
+}
+
+- (void)showNextView:(id)sender
+{
+     GroupAnimationViewController *animationView = [[GroupAnimationViewController alloc] init];
+    [self.navigationController pushViewController:animationView animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

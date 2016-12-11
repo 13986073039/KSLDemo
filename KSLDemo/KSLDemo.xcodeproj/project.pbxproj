@@ -31,6 +31,7 @@
 		3B5E50E81DFCD7730014ECBF /* page_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E50E51DFCD7730014ECBF /* page_1.png */; };
 		3B5E50E91DFCD7730014ECBF /* page_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E50E61DFCD7730014ECBF /* page_2.png */; };
 		3B5E50EA1DFCD7730014ECBF /* page_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E50E71DFCD7730014ECBF /* page_3.png */; };
+		3B5E50ED1DFD260E0014ECBF /* GroupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E50EC1DFD260E0014ECBF /* GroupAnimationViewController.m */; };
 		3B7A12ED1DFC344800E503E1 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7A12EC1DFC344800E503E1 /* heart.png */; };
 		3BA02C511DFD3ED900D625E9 /* KSLSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */; };
 		3BA02C541DFD3ED900D625E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA02C531DFD3ED900D625E9 /* libsqlite3.tbd */; };
@@ -91,6 +92,8 @@
 		3B5E50E51DFCD7730014ECBF /* page_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_1.png; sourceTree = "<group>"; };
 		3B5E50E61DFCD7730014ECBF /* page_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_2.png; sourceTree = "<group>"; };
 		3B5E50E71DFCD7730014ECBF /* page_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_3.png; sourceTree = "<group>"; };
+		3B5E50EB1DFD260E0014ECBF /* GroupAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimationViewController.h; sourceTree = "<group>"; };
+		3B5E50EC1DFD260E0014ECBF /* GroupAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationViewController.m; sourceTree = "<group>"; };
 		3B7A12EC1DFC344800E503E1 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		3BA02C4F1DFD3ED900D625E9 /* KSLSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSLSQLiteManager.h; path = KSLDemo/KSLSQLiteManager.h; sourceTree = SOURCE_ROOT; };
 		3BA02C501DFD3ED900D625E9 /* KSLSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSLSQLiteManager.m; path = KSLDemo/KSLSQLiteManager.m; sourceTree = SOURCE_ROOT; };
@@ -171,6 +174,8 @@
 				3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */,
 				3B5E50E21DFCD7130014ECBF /* TransitionViewController.h */,
 				3B5E50E31DFCD7130014ECBF /* TransitionViewController.m */,
+				3B5E50EB1DFD260E0014ECBF /* GroupAnimationViewController.h */,
+				3B5E50EC1DFD260E0014ECBF /* GroupAnimationViewController.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */,
 				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,
 				3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */,
+				3B5E50ED1DFD260E0014ECBF /* GroupAnimationViewController.m in Sources */,
 				3B1148461DFC243C00F05002 /* ThirdViewController.m in Sources */,
 				3BB659EE1DE17F1C0002B4F7 /* KSLAddMethodPerson.m in Sources */,
 				3B1148431DFC243C00F05002 /* FirstViewController.m in Sources */,
