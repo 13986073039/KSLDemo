@@ -7,7 +7,7 @@
 //
 
 #import "KeyFrameAnimationViewController.h"
-#import "KeyFrameAnimationViewController.h"
+#import "WheelsViewController.h"
 
 @interface KeyFrameAnimationViewController ()
 
@@ -24,6 +24,7 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self setupSubviews];
+    [self setupNextViewButton];
 }
 
 - (void)setupSubviews
@@ -82,7 +83,7 @@
 
 - (void)showNextView:(id)sender
 {
-    KeyFrameAnimationViewController *animationView = [[KeyFrameAnimationViewController alloc] init];
+    WheelsViewController *animationView = [[WheelsViewController alloc] init];
     [self.navigationController pushViewController:animationView animated:YES];
 }
 

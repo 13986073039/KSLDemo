@@ -80,6 +80,13 @@
 
 - (void)heartbeat
 {
+    /*
+    animation.autoreverses = NO;//默认就是NO，设置成Yes之后下面fillMode就不起作用了
+    animation.fillMode = kCAFillModeForwards;
+    animation.removedOnCompletion = NO;
+     */
+    
+    
     //创建动画对象
     CABasicAnimation *anim = [CABasicAnimation animation];
     //设置属性
@@ -89,7 +96,8 @@
     
     //设置动画的执行次数
     anim.repeatCount = MAXFLOAT;
-    
+    //anim.removedOnCompletion = NO;
+    //anim.fillMode = kCAFillModeForwards;
     //设置动画的执行时长
     anim.duration = 0.5;
     

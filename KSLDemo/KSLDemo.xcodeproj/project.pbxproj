@@ -43,6 +43,24 @@
 		3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F61DE1B5730002B4F7 /* KSLStatus.m */; };
 		3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */; };
 		3BB659FD1DE1BD850002B4F7 /* KSLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB659FC1DE1BD850002B4F7 /* KSLUser.m */; };
+		3BD38A0D1E0D5B89001B4CA7 /* LuckyAnimal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD389FE1E0D5B89001B4CA7 /* LuckyAnimal.png */; };
+		3BD38A0E1E0D5B89001B4CA7 /* LuckyAnimal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD389FF1E0D5B89001B4CA7 /* LuckyAnimal@2x.png */; };
+		3BD38A0F1E0D5B89001B4CA7 /* LuckyAnimalPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A001E0D5B89001B4CA7 /* LuckyAnimalPressed.png */; };
+		3BD38A101E0D5B89001B4CA7 /* LuckyAnimalPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A011E0D5B89001B4CA7 /* LuckyAnimalPressed@2x.png */; };
+		3BD38A111E0D5B89001B4CA7 /* LuckyAstrology.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A021E0D5B89001B4CA7 /* LuckyAstrology.png */; };
+		3BD38A121E0D5B89001B4CA7 /* LuckyAstrology@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A031E0D5B89001B4CA7 /* LuckyAstrology@2x.png */; };
+		3BD38A131E0D5B89001B4CA7 /* LuckyAstrologyPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A041E0D5B89001B4CA7 /* LuckyAstrologyPressed.png */; };
+		3BD38A141E0D5B89001B4CA7 /* LuckyAstrologyPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A051E0D5B89001B4CA7 /* LuckyAstrologyPressed@2x.png */; };
+		3BD38A151E0D5B89001B4CA7 /* LuckyBaseBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A061E0D5B89001B4CA7 /* LuckyBaseBackground@2x.png */; };
+		3BD38A161E0D5B89001B4CA7 /* LuckyCenterButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A071E0D5B89001B4CA7 /* LuckyCenterButton@2x.png */; };
+		3BD38A171E0D5B89001B4CA7 /* LuckyCenterButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A081E0D5B89001B4CA7 /* LuckyCenterButtonPressed@2x.png */; };
+		3BD38A181E0D5B89001B4CA7 /* LuckyRotateWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A091E0D5B89001B4CA7 /* LuckyRotateWheel.png */; };
+		3BD38A191E0D5B89001B4CA7 /* LuckyRotateWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A0A1E0D5B89001B4CA7 /* LuckyRotateWheel@2x.png */; };
+		3BD38A1A1E0D5B89001B4CA7 /* LuckyRototeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A0B1E0D5B89001B4CA7 /* LuckyRototeSelected.png */; };
+		3BD38A1B1E0D5B89001B4CA7 /* LuckyRototeSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD38A0C1E0D5B89001B4CA7 /* LuckyRototeSelected@2x.png */; };
+		3BD38A1E1E0D5C00001B4CA7 /* KSLWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD38A1D1E0D5C00001B4CA7 /* KSLWheelView.m */; };
+		3BD38A211E0D5C52001B4CA7 /* KSLWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD38A201E0D5C52001B4CA7 /* KSLWheelButton.m */; };
+		3BD38A241E0D6216001B4CA7 /* WheelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD38A231E0D6216001B4CA7 /* WheelsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +128,27 @@
 		3BB659F91DE1B9270002B4F7 /* NSObject+KSLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KSLModel.m"; sourceTree = "<group>"; };
 		3BB659FB1DE1BD850002B4F7 /* KSLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLUser.h; sourceTree = "<group>"; };
 		3BB659FC1DE1BD850002B4F7 /* KSLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLUser.m; sourceTree = "<group>"; };
+		3BD389FE1E0D5B89001B4CA7 /* LuckyAnimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAnimal.png; sourceTree = "<group>"; };
+		3BD389FF1E0D5B89001B4CA7 /* LuckyAnimal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAnimal@2x.png"; sourceTree = "<group>"; };
+		3BD38A001E0D5B89001B4CA7 /* LuckyAnimalPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAnimalPressed.png; sourceTree = "<group>"; };
+		3BD38A011E0D5B89001B4CA7 /* LuckyAnimalPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAnimalPressed@2x.png"; sourceTree = "<group>"; };
+		3BD38A021E0D5B89001B4CA7 /* LuckyAstrology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAstrology.png; sourceTree = "<group>"; };
+		3BD38A031E0D5B89001B4CA7 /* LuckyAstrology@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAstrology@2x.png"; sourceTree = "<group>"; };
+		3BD38A041E0D5B89001B4CA7 /* LuckyAstrologyPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAstrologyPressed.png; sourceTree = "<group>"; };
+		3BD38A051E0D5B89001B4CA7 /* LuckyAstrologyPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAstrologyPressed@2x.png"; sourceTree = "<group>"; };
+		3BD38A061E0D5B89001B4CA7 /* LuckyBaseBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyBaseBackground@2x.png"; sourceTree = "<group>"; };
+		3BD38A071E0D5B89001B4CA7 /* LuckyCenterButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyCenterButton@2x.png"; sourceTree = "<group>"; };
+		3BD38A081E0D5B89001B4CA7 /* LuckyCenterButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyCenterButtonPressed@2x.png"; sourceTree = "<group>"; };
+		3BD38A091E0D5B89001B4CA7 /* LuckyRotateWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyRotateWheel.png; sourceTree = "<group>"; };
+		3BD38A0A1E0D5B89001B4CA7 /* LuckyRotateWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyRotateWheel@2x.png"; sourceTree = "<group>"; };
+		3BD38A0B1E0D5B89001B4CA7 /* LuckyRototeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyRototeSelected.png; sourceTree = "<group>"; };
+		3BD38A0C1E0D5B89001B4CA7 /* LuckyRototeSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyRototeSelected@2x.png"; sourceTree = "<group>"; };
+		3BD38A1C1E0D5C00001B4CA7 /* KSLWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLWheelView.h; sourceTree = "<group>"; };
+		3BD38A1D1E0D5C00001B4CA7 /* KSLWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLWheelView.m; sourceTree = "<group>"; };
+		3BD38A1F1E0D5C52001B4CA7 /* KSLWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLWheelButton.h; sourceTree = "<group>"; };
+		3BD38A201E0D5C52001B4CA7 /* KSLWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLWheelButton.m; sourceTree = "<group>"; };
+		3BD38A221E0D6216001B4CA7 /* WheelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelsViewController.h; sourceTree = "<group>"; };
+		3BD38A231E0D6216001B4CA7 /* WheelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +168,10 @@
 			children = (
 				3B01CF8D1DEAD9AC008828C5 /* Quartz2dView.h */,
 				3B01CF8E1DEAD9AC008828C5 /* Quartz2dView.m */,
+				3BD38A1C1E0D5C00001B4CA7 /* KSLWheelView.h */,
+				3BD38A1D1E0D5C00001B4CA7 /* KSLWheelView.m */,
+				3BD38A1F1E0D5C52001B4CA7 /* KSLWheelButton.h */,
+				3BD38A201E0D5C52001B4CA7 /* KSLWheelButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +203,8 @@
 				3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */,
 				3B11484E1DFC4C3200F05002 /* KeyFrameAnimationViewController.h */,
 				3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */,
+				3BD38A221E0D6216001B4CA7 /* WheelsViewController.h */,
+				3BD38A231E0D6216001B4CA7 /* WheelsViewController.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -190,10 +235,9 @@
 				3B01CF821DEABF7A008828C5 /* mascot_bottom@2x.png */,
 				3B01CF831DEABF7A008828C5 /* mascot_cover@2x.png */,
 				3B11482F1DFBEF1300F05002 /* clockIcon.png */,
-
 				3B1148511DFC4E0100F05002 /* caipiao163@2x.png */,
-
 				3B7A12EC1DFC344800E503E1 /* heart.png */,
+				3BD389FD1E0D5B89001B4CA7 /* WheelsImage */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -300,6 +344,28 @@
 			path = KSLModel;
 			sourceTree = "<group>";
 		};
+		3BD389FD1E0D5B89001B4CA7 /* WheelsImage */ = {
+			isa = PBXGroup;
+			children = (
+				3BD389FE1E0D5B89001B4CA7 /* LuckyAnimal.png */,
+				3BD389FF1E0D5B89001B4CA7 /* LuckyAnimal@2x.png */,
+				3BD38A001E0D5B89001B4CA7 /* LuckyAnimalPressed.png */,
+				3BD38A011E0D5B89001B4CA7 /* LuckyAnimalPressed@2x.png */,
+				3BD38A021E0D5B89001B4CA7 /* LuckyAstrology.png */,
+				3BD38A031E0D5B89001B4CA7 /* LuckyAstrology@2x.png */,
+				3BD38A041E0D5B89001B4CA7 /* LuckyAstrologyPressed.png */,
+				3BD38A051E0D5B89001B4CA7 /* LuckyAstrologyPressed@2x.png */,
+				3BD38A061E0D5B89001B4CA7 /* LuckyBaseBackground@2x.png */,
+				3BD38A071E0D5B89001B4CA7 /* LuckyCenterButton@2x.png */,
+				3BD38A081E0D5B89001B4CA7 /* LuckyCenterButtonPressed@2x.png */,
+				3BD38A091E0D5B89001B4CA7 /* LuckyRotateWheel.png */,
+				3BD38A0A1E0D5B89001B4CA7 /* LuckyRotateWheel@2x.png */,
+				3BD38A0B1E0D5B89001B4CA7 /* LuckyRototeSelected.png */,
+				3BD38A0C1E0D5B89001B4CA7 /* LuckyRototeSelected@2x.png */,
+			);
+			path = WheelsImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,17 +424,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD38A121E0D5B89001B4CA7 /* LuckyAstrology@2x.png in Resources */,
+				3BD38A0D1E0D5B89001B4CA7 /* LuckyAnimal.png in Resources */,
+				3BD38A111E0D5B89001B4CA7 /* LuckyAstrology.png in Resources */,
 				3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */,
 				3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */,
+				3BD38A0F1E0D5B89001B4CA7 /* LuckyAnimalPressed.png in Resources */,
 				3B7A12ED1DFC344800E503E1 /* heart.png in Resources */,
 				3BB659D51DE1704C0002B4F7 /* LaunchScreen.storyboard in Resources */,
+				3BD38A191E0D5B89001B4CA7 /* LuckyRotateWheel@2x.png in Resources */,
 				3B1148301DFBEF1300F05002 /* clockIcon.png in Resources */,
 				3BB659DD1DE171D80002B4F7 /* status.plist in Resources */,
+				3BD38A0E1E0D5B89001B4CA7 /* LuckyAnimal@2x.png in Resources */,
+				3BD38A141E0D5B89001B4CA7 /* LuckyAstrologyPressed@2x.png in Resources */,
+				3BD38A101E0D5B89001B4CA7 /* LuckyAnimalPressed@2x.png in Resources */,
 				3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */,
 				3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */,
+				3BD38A171E0D5B89001B4CA7 /* LuckyCenterButtonPressed@2x.png in Resources */,
+				3BD38A161E0D5B89001B4CA7 /* LuckyCenterButton@2x.png in Resources */,
+				3BD38A131E0D5B89001B4CA7 /* LuckyAstrologyPressed.png in Resources */,
 				3B01CF851DEABF7A008828C5 /* mascot_cover@2x.png in Resources */,
+				3BD38A1A1E0D5B89001B4CA7 /* LuckyRototeSelected.png in Resources */,
 				3B1148521DFC4E0100F05002 /* caipiao163@2x.png in Resources */,
+				3BD38A151E0D5B89001B4CA7 /* LuckyBaseBackground@2x.png in Resources */,
+				3BD38A181E0D5B89001B4CA7 /* LuckyRotateWheel.png in Resources */,
 				3BB659D21DE1704C0002B4F7 /* Assets.xcassets in Resources */,
+				3BD38A1B1E0D5B89001B4CA7 /* LuckyRototeSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +462,7 @@
 			files = (
 				3B11484A1DFC26BD00F05002 /* ImplicitAnimationViewController.m in Sources */,
 				3BA02C511DFD3ED900D625E9 /* KSLSQLiteManager.m in Sources */,
+				3BD38A211E0D5C52001B4CA7 /* KSLWheelButton.m in Sources */,
 				3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */,
 				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,
 				3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */,
@@ -392,6 +474,7 @@
 				3BB659F11DE1971E0002B4F7 /* KSLRuntime.m in Sources */,
 				3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */,
 				3B1148421DFC243C00F05002 /* DeepShallowCopyViewController.m in Sources */,
+				3BD38A241E0D6216001B4CA7 /* WheelsViewController.m in Sources */,
 				3B1148451DFC243C00F05002 /* SecondViewController.m in Sources */,
 				3B01CF8F1DEAD9AC008828C5 /* Quartz2dView.m in Sources */,
 				3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */,
@@ -401,6 +484,7 @@
 				3B1148441DFC243C00F05002 /* FourthViewController.m in Sources */,
 				3BB659FD1DE1BD850002B4F7 /* KSLUser.m in Sources */,
 				3B1148501DFC4C3200F05002 /* KeyFrameAnimationViewController.m in Sources */,
+				3BD38A1E1E0D5C00001B4CA7 /* KSLWheelView.m in Sources */,
 				3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */,
 				3BB659C41DE1704C0002B4F7 /* main.m in Sources */,
 			);
