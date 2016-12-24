@@ -7,6 +7,7 @@
 //  动画组
 
 #import "GroupAnimationViewController.h"
+#import "WheelsViewController.h"
 
 @interface GroupAnimationViewController ()
 
@@ -25,6 +26,7 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self setupSubviews];
+    [self setupNextViewButton];
 }
 
 - (void)setupSubviews
@@ -94,6 +96,23 @@
     [self.bgView.layer addAnimation:group2 forKey:nil];
     
 }
+
+- (void)setupNextViewButton
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44);
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:btn];
+}
+
+- (void)showNextView:(id)sender
+{
+    WheelsViewController *animationView = [[WheelsViewController alloc] init];
+    [self.navigationController pushViewController:animationView animated:YES];
+}
+
 
 
 - (void)didReceiveMemoryWarning {
