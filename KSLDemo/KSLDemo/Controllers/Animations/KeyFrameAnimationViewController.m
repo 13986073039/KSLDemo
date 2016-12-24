@@ -4,10 +4,14 @@
 //
 //  Created by 孔森林 on 2016/12/10.
 //  Copyright © 2016年 GePingTech. All rights reserved.
-//
+//  桢动画
 
 #import "KeyFrameAnimationViewController.h"
+<<<<<<< HEAD
 #import "WheelsViewController.h"
+=======
+#import "TransitionViewController.h"
+>>>>>>> 4c09fcda91c9c0575738cff4598bb4b4e72059f9
 
 @interface KeyFrameAnimationViewController ()
 
@@ -24,6 +28,10 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self setupSubviews];
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 4c09fcda91c9c0575738cff4598bb4b4e72059f9
     [self setupNextViewButton];
 }
 
@@ -83,7 +91,11 @@
 
 - (void)showNextView:(id)sender
 {
+<<<<<<< HEAD
     WheelsViewController *animationView = [[WheelsViewController alloc] init];
+=======
+    TransitionViewController *animationView = [[TransitionViewController alloc] init];
+>>>>>>> 4c09fcda91c9c0575738cff4598bb4b4e72059f9
     [self.navigationController pushViewController:animationView animated:YES];
 }
 
