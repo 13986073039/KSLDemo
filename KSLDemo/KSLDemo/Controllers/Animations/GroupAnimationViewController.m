@@ -8,11 +8,14 @@
 
 #import "GroupAnimationViewController.h"
 #import "WheelsViewController.h"
+#import "KSLWheelButton.h"
 
 @interface GroupAnimationViewController ()
 
 @property (nonatomic, weak)UIImageView *imageView;
 @property (nonatomic, weak)UIView *bgView;
+@property (nonatomic, weak)KSLWheelButton *wheelButton;
+//@property (nonatomic, strong)KSLWheelButton *wheelButton;
 
 @end
 
@@ -25,8 +28,27 @@
     self.title = @"组动画";
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
+    [self testAddSubview];
+    
     [self setupSubviews];
     [self setupNextViewButton];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    NSLog(@"self.wheelButton = %@",self.wheelButton);
+}
+
+//如果被添加的View采用修饰符weak，则view被从父视图中移除时会被释放
+//如果被添加的View采用修饰符strong，则view被从父视图中移除时不会被释放，父视图被释放时才被释放
+- (void)testAddSubview
+{
+    KSLWheelButton *aButton = [[KSLWheelButton alloc] init];
+    [self.view addSubview:aButton];
+    self.wheelButton = aButton;
+    [aButton removeFromSuperview];
+    NSLog(@"self.wheelButton = %@",self.wheelButton);
 }
 
 - (void)setupSubviews

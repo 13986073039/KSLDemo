@@ -11,7 +11,21 @@
 #import "KSLTools.h"
 #import "ClockViewController.h"
 
+@interface KSLTestModel : NSObject
+
+@property (nonatomic, copy)NSString *strName;
+
+@end
+
+@implementation KSLTestModel
+
+
+@end
+
 @interface DeepShallowCopyViewController ()
+
+@property (nonatomic, strong)NSArray *aArray;
+@property (nonatomic, strong)NSMutableArray *aMutableArray;
 
 @end
 
@@ -65,6 +79,18 @@
     NSArray *array2 = [array1 copy];
     NSArray *array3 = [[NSArray alloc] initWithArray:array1 copyItems:YES];
     NSArray *array4 = [array1 mutableCopy];
+    
+
+    
+    KSLTestModel *aModel = [[KSLTestModel alloc] init];
+    
+    NSMutableArray *mut = [NSMutableArray arrayWithCapacity:1];
+    [mut addObject:aModel];
+    NSMutableArray *aMut = [mut mutableCopy];
+    NSLog(@"aMut:%@",aMut);
+    
+    self.aArray = [mut copy];
+    self.aMutableArray = [self.aArray mutableCopy];
     
     NSLog(@"---------------2 begin");
     for (int i = 0; i < [array1 count]; i++)
