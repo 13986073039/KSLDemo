@@ -8,12 +8,14 @@
 
 #import "GroupAnimationViewController.h"
 #import "WheelsViewController.h"
+#import "KSLWheelView.h"
 #import "KSLWheelButton.h"
 
 @interface GroupAnimationViewController ()
 
 @property (nonatomic, weak)UIImageView *imageView;
 @property (nonatomic, weak)UIView *bgView;
+@property (nonatomic, weak)KSLWheelView *wheelView;
 @property (nonatomic, weak)KSLWheelButton *wheelButton;
 //@property (nonatomic, strong)KSLWheelButton *wheelButton;
 
@@ -44,11 +46,14 @@
 //如果被添加的View采用修饰符strong，则view被从父视图中移除时不会被释放，父视图被释放时才被释放
 - (void)testAddSubview
 {
+    KSLWheelView *aView = [[KSLWheelView alloc] init];
+    [self.view addSubview:aView];
+    self.wheelView = aView;
+    
     KSLWheelButton *aButton = [[KSLWheelButton alloc] init];
-    [self.view addSubview:aButton];
+    [self.wheelView addSubview:aButton];
     self.wheelButton = aButton;
-    [aButton removeFromSuperview];
-    NSLog(@"self.wheelButton = %@",self.wheelButton);
+
 }
 
 - (void)setupSubviews
@@ -72,6 +77,12 @@
 
 -(void)touchesBegan:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event{
     
+    //wheelView被释放后，wheelView上的子视图也被释放
+    [self.wheelView removeFromSuperview];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"self.wheelButton = %@",self.wheelButton);
+    });
     
     
     CAAnimationGroup *group = [CAAnimationGroup animation];
