@@ -9,7 +9,7 @@
 #import "KSLWheelView.h"
 #import "KSLWheelButton.h"
 
-@interface KSLWheelView ()
+@interface KSLWheelView ()<CAAnimationDelegate>
 
 @property (nonatomic, weak)UIImageView *contentView;
 @property (nonatomic, weak)UIButton *preBtn;
@@ -65,6 +65,7 @@
     NSNumber *rotationRad = @(M_PI * 2/* - angleToRad(self.preBtn.tag * 30)*/);
     anim.toValue = rotationRad;
     anim.duration = 1;
+    anim.delegate = self;
 //    anim.fillMode = kCAFillModeForwards;
 //    anim.removedOnCompletion = NO;
     //anim.autoreverses = NO;
@@ -197,6 +198,19 @@
     //把当前的按钮赋值给上一个按钮
     self.preBtn = btn;
     
+    
+}
+
+
+//当核心动画停止的时候调用.
+-(void)animationDidStop:(nonnull CAAnimation *)anim finished:(BOOL)flag{
+    NSLog(@"%s",__func__);
+    
+    //拿当选中按钮的旋转角度.
+    CGAffineTransform transform = self.preBtn.transform;
+    CGFloat angel = atan2f(transform.b, transform.a);
+    //让contentView倒着旋转回去.
+    self.contentView.transform = CGAffineTransformMakeRotation(-angel);
     
 }
 
