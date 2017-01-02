@@ -11,6 +11,8 @@
 #import "KSLWheelView.h"
 #import "KSLWheelButton.h"
 
+#import "KSLWeiboMenuViewController.h"
+
 @interface GroupAnimationViewController ()
 
 @property (nonatomic, weak)UIImageView *imageView;

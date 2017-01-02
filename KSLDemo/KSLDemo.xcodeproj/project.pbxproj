@@ -21,6 +21,22 @@
 		3B11484D1DFC2E4100F05002 /* UIColor+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11484C1DFC2E4100F05002 /* UIColor+KSLExtension.m */; };
 		3B1148501DFC4C3200F05002 /* KeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */; };
 		3B1148521DFC4E0100F05002 /* caipiao163@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1148511DFC4E0100F05002 /* caipiao163@2x.png */; };
+		3B2E2F4F1E1A8A4000C630EE /* KSLItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E2F4E1E1A8A4000C630EE /* KSLItemButton.m */; };
+		3B2E2F521E1A8B4400C630EE /* KSLMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E2F511E1A8B4400C630EE /* KSLMenuItem.m */; };
+		3B2E2F551E1A8F7A00C630EE /* KSLComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E2F541E1A8F7A00C630EE /* KSLComponentViewController.m */; };
+		3B2E2F581E1A90EC00C630EE /* KSLWeiboMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E2F571E1A90EC00C630EE /* KSLWeiboMenuViewController.m */; };
+		3B2E2F7F1E1A934000C630EE /* tabbar_compose_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F731E1A934000C630EE /* tabbar_compose_camera@2x.png */; };
+		3B2E2F801E1A934000C630EE /* tabbar_compose_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F741E1A934000C630EE /* tabbar_compose_camera@3x.png */; };
+		3B2E2F811E1A934000C630EE /* tabbar_compose_idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F751E1A934000C630EE /* tabbar_compose_idea@2x.png */; };
+		3B2E2F821E1A934000C630EE /* tabbar_compose_idea@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F761E1A934000C630EE /* tabbar_compose_idea@3x.png */; };
+		3B2E2F831E1A934000C630EE /* tabbar_compose_lbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F771E1A934000C630EE /* tabbar_compose_lbs@2x.png */; };
+		3B2E2F841E1A934000C630EE /* tabbar_compose_lbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F781E1A934000C630EE /* tabbar_compose_lbs@3x.png */; };
+		3B2E2F851E1A934000C630EE /* tabbar_compose_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F791E1A934000C630EE /* tabbar_compose_more@2x.png */; };
+		3B2E2F861E1A934000C630EE /* tabbar_compose_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F7A1E1A934000C630EE /* tabbar_compose_more@3x.png */; };
+		3B2E2F871E1A934000C630EE /* tabbar_compose_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F7B1E1A934000C630EE /* tabbar_compose_photo@2x.png */; };
+		3B2E2F881E1A934000C630EE /* tabbar_compose_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F7C1E1A934000C630EE /* tabbar_compose_photo@3x.png */; };
+		3B2E2F891E1A934000C630EE /* tabbar_compose_review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F7D1E1A934000C630EE /* tabbar_compose_review@2x.png */; };
+		3B2E2F8A1E1A934000C630EE /* tabbar_compose_review@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E2F7E1E1A934000C630EE /* tabbar_compose_review@3x.png */; };
 		3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */; };
 		3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */; };
 		3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */; };
@@ -95,6 +111,26 @@
 		3B11484E1DFC4C3200F05002 /* KeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationViewController.h; sourceTree = "<group>"; };
 		3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationViewController.m; sourceTree = "<group>"; };
 		3B1148511DFC4E0100F05002 /* caipiao163@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caipiao163@2x.png"; sourceTree = "<group>"; };
+		3B2E2F4D1E1A8A4000C630EE /* KSLItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLItemButton.h; sourceTree = "<group>"; };
+		3B2E2F4E1E1A8A4000C630EE /* KSLItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLItemButton.m; sourceTree = "<group>"; };
+		3B2E2F501E1A8B4400C630EE /* KSLMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLMenuItem.h; sourceTree = "<group>"; };
+		3B2E2F511E1A8B4400C630EE /* KSLMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLMenuItem.m; sourceTree = "<group>"; };
+		3B2E2F531E1A8F7A00C630EE /* KSLComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLComponentViewController.h; sourceTree = "<group>"; };
+		3B2E2F541E1A8F7A00C630EE /* KSLComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLComponentViewController.m; sourceTree = "<group>"; };
+		3B2E2F561E1A90EC00C630EE /* KSLWeiboMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLWeiboMenuViewController.h; sourceTree = "<group>"; };
+		3B2E2F571E1A90EC00C630EE /* KSLWeiboMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLWeiboMenuViewController.m; sourceTree = "<group>"; };
+		3B2E2F731E1A934000C630EE /* tabbar_compose_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_camera@2x.png"; sourceTree = "<group>"; };
+		3B2E2F741E1A934000C630EE /* tabbar_compose_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_camera@3x.png"; sourceTree = "<group>"; };
+		3B2E2F751E1A934000C630EE /* tabbar_compose_idea@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_idea@2x.png"; sourceTree = "<group>"; };
+		3B2E2F761E1A934000C630EE /* tabbar_compose_idea@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_idea@3x.png"; sourceTree = "<group>"; };
+		3B2E2F771E1A934000C630EE /* tabbar_compose_lbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_lbs@2x.png"; sourceTree = "<group>"; };
+		3B2E2F781E1A934000C630EE /* tabbar_compose_lbs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_lbs@3x.png"; sourceTree = "<group>"; };
+		3B2E2F791E1A934000C630EE /* tabbar_compose_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_more@2x.png"; sourceTree = "<group>"; };
+		3B2E2F7A1E1A934000C630EE /* tabbar_compose_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_more@3x.png"; sourceTree = "<group>"; };
+		3B2E2F7B1E1A934000C630EE /* tabbar_compose_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_photo@2x.png"; sourceTree = "<group>"; };
+		3B2E2F7C1E1A934000C630EE /* tabbar_compose_photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_photo@3x.png"; sourceTree = "<group>"; };
+		3B2E2F7D1E1A934000C630EE /* tabbar_compose_review@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_review@2x.png"; sourceTree = "<group>"; };
+		3B2E2F7E1E1A934000C630EE /* tabbar_compose_review@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_review@3x.png"; sourceTree = "<group>"; };
 		3B37DD0E1DE9AD8500D5F0BD /* UIImage+KSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KSLExtension.h"; sourceTree = "<group>"; };
 		3B37DD0F1DE9AD8500D5F0BD /* UIImage+KSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KSLExtension.m"; sourceTree = "<group>"; };
 		3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡哇伊.jpg"; sourceTree = "<group>"; };
@@ -184,6 +220,8 @@
 				3BD38A1D1E0D5C00001B4CA7 /* KSLWheelView.m */,
 				3BD38A1F1E0D5C52001B4CA7 /* KSLWheelButton.h */,
 				3BD38A201E0D5C52001B4CA7 /* KSLWheelButton.m */,
+				3B2E2F4D1E1A8A4000C630EE /* KSLItemButton.h */,
+				3B2E2F4E1E1A8A4000C630EE /* KSLItemButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,15 +253,16 @@
 				3B1148491DFC26BD00F05002 /* ImplicitAnimationViewController.m */,
 				3B11484E1DFC4C3200F05002 /* KeyFrameAnimationViewController.h */,
 				3B11484F1DFC4C3200F05002 /* KeyFrameAnimationViewController.m */,
-
 				3BD38A221E0D6216001B4CA7 /* WheelsViewController.h */,
 				3BD38A231E0D6216001B4CA7 /* WheelsViewController.m */,
-
 				3B5E50E21DFCD7130014ECBF /* TransitionViewController.h */,
 				3B5E50E31DFCD7130014ECBF /* TransitionViewController.m */,
 				3B5E50EB1DFD260E0014ECBF /* GroupAnimationViewController.h */,
 				3B5E50EC1DFD260E0014ECBF /* GroupAnimationViewController.m */,
-
+				3B2E2F561E1A90EC00C630EE /* KSLWeiboMenuViewController.h */,
+				3B2E2F571E1A90EC00C630EE /* KSLWeiboMenuViewController.m */,
+				3B2E2F531E1A8F7A00C630EE /* KSLComponentViewController.h */,
+				3B2E2F541E1A8F7A00C630EE /* KSLComponentViewController.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -237,6 +276,25 @@
 			path = SQLite3;
 			sourceTree = "<group>";
 		};
+		3B2E2F721E1A934000C630EE /* WeiboMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E2F731E1A934000C630EE /* tabbar_compose_camera@2x.png */,
+				3B2E2F741E1A934000C630EE /* tabbar_compose_camera@3x.png */,
+				3B2E2F751E1A934000C630EE /* tabbar_compose_idea@2x.png */,
+				3B2E2F761E1A934000C630EE /* tabbar_compose_idea@3x.png */,
+				3B2E2F771E1A934000C630EE /* tabbar_compose_lbs@2x.png */,
+				3B2E2F781E1A934000C630EE /* tabbar_compose_lbs@3x.png */,
+				3B2E2F791E1A934000C630EE /* tabbar_compose_more@2x.png */,
+				3B2E2F7A1E1A934000C630EE /* tabbar_compose_more@3x.png */,
+				3B2E2F7B1E1A934000C630EE /* tabbar_compose_photo@2x.png */,
+				3B2E2F7C1E1A934000C630EE /* tabbar_compose_photo@3x.png */,
+				3B2E2F7D1E1A934000C630EE /* tabbar_compose_review@2x.png */,
+				3B2E2F7E1E1A934000C630EE /* tabbar_compose_review@3x.png */,
+			);
+			path = WeiboMenu;
+			sourceTree = "<group>";
+		};
 		3B37DD111DE9AE1700D5F0BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +306,7 @@
 		3B37DD121DE9AE1700D5F0BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3B2E2F721E1A934000C630EE /* WeiboMenu */,
 				3B37DD131DE9B53600D5F0BD /* 卡哇伊.jpg */,
 				3B4748A31DE9E6DB0037A37B /* lucky_bucuo@2x.png */,
 				3B37DD151DE9BFFF00D5F0BD /* 阿狸头像.png */,
@@ -256,13 +315,10 @@
 				3B11482F1DFBEF1300F05002 /* clockIcon.png */,
 				3B1148511DFC4E0100F05002 /* caipiao163@2x.png */,
 				3B7A12EC1DFC344800E503E1 /* heart.png */,
-
 				3BD389FD1E0D5B89001B4CA7 /* WheelsImage */,
-
 				3B5E50E51DFCD7730014ECBF /* page_1.png */,
 				3B5E50E61DFCD7730014ECBF /* page_2.png */,
 				3B5E50E71DFCD7730014ECBF /* page_3.png */,
-
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -365,6 +421,8 @@
 				3BB659F61DE1B5730002B4F7 /* KSLStatus.m */,
 				3BB659FB1DE1BD850002B4F7 /* KSLUser.h */,
 				3BB659FC1DE1BD850002B4F7 /* KSLUser.m */,
+				3B2E2F501E1A8B4400C630EE /* KSLMenuItem.h */,
+				3B2E2F511E1A8B4400C630EE /* KSLMenuItem.m */,
 			);
 			path = KSLModel;
 			sourceTree = "<group>";
@@ -449,29 +507,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				3BD38A121E0D5B89001B4CA7 /* LuckyAstrology@2x.png in Resources */,
+				3B2E2F831E1A934000C630EE /* tabbar_compose_lbs@2x.png in Resources */,
 				3BD38A0D1E0D5B89001B4CA7 /* LuckyAnimal.png in Resources */,
 				3BD38A111E0D5B89001B4CA7 /* LuckyAstrology.png in Resources */,
-
+				3B2E2F861E1A934000C630EE /* tabbar_compose_more@3x.png in Resources */,
 				3B5E50EA1DFCD7730014ECBF /* page_3.png in Resources */,
-
 				3B37DD141DE9B53600D5F0BD /* 卡哇伊.jpg in Resources */,
+				3B2E2F821E1A934000C630EE /* tabbar_compose_idea@3x.png in Resources */,
+				3B2E2F871E1A934000C630EE /* tabbar_compose_photo@2x.png in Resources */,
 				3B37DD161DE9BFFF00D5F0BD /* 阿狸头像.png in Resources */,
 				3BD38A0F1E0D5B89001B4CA7 /* LuckyAnimalPressed.png in Resources */,
 				3B7A12ED1DFC344800E503E1 /* heart.png in Resources */,
 				3BB659D51DE1704C0002B4F7 /* LaunchScreen.storyboard in Resources */,
+				3B2E2F881E1A934000C630EE /* tabbar_compose_photo@3x.png in Resources */,
+				3B2E2F841E1A934000C630EE /* tabbar_compose_lbs@3x.png in Resources */,
 				3BD38A191E0D5B89001B4CA7 /* LuckyRotateWheel@2x.png in Resources */,
+				3B2E2F811E1A934000C630EE /* tabbar_compose_idea@2x.png in Resources */,
+				3B2E2F7F1E1A934000C630EE /* tabbar_compose_camera@2x.png in Resources */,
 				3B1148301DFBEF1300F05002 /* clockIcon.png in Resources */,
 				3BB659DD1DE171D80002B4F7 /* status.plist in Resources */,
-
 				3BD38A0E1E0D5B89001B4CA7 /* LuckyAnimal@2x.png in Resources */,
+				3B2E2F8A1E1A934000C630EE /* tabbar_compose_review@3x.png in Resources */,
 				3BD38A141E0D5B89001B4CA7 /* LuckyAstrologyPressed@2x.png in Resources */,
 				3BD38A101E0D5B89001B4CA7 /* LuckyAnimalPressed@2x.png in Resources */,
-
 				3B5E50E91DFCD7730014ECBF /* page_2.png in Resources */,
 				3B5E50E81DFCD7730014ECBF /* page_1.png in Resources */,
-
+				3B2E2F851E1A934000C630EE /* tabbar_compose_more@2x.png in Resources */,
 				3B01CF841DEABF7A008828C5 /* mascot_bottom@2x.png in Resources */,
 				3B4748A41DE9E6DB0037A37B /* lucky_bucuo@2x.png in Resources */,
 				3BD38A171E0D5B89001B4CA7 /* LuckyCenterButtonPressed@2x.png in Resources */,
@@ -481,8 +543,10 @@
 				3BD38A1A1E0D5B89001B4CA7 /* LuckyRototeSelected.png in Resources */,
 				3B1148521DFC4E0100F05002 /* caipiao163@2x.png in Resources */,
 				3BD38A151E0D5B89001B4CA7 /* LuckyBaseBackground@2x.png in Resources */,
+				3B2E2F891E1A934000C630EE /* tabbar_compose_review@2x.png in Resources */,
 				3BD38A181E0D5B89001B4CA7 /* LuckyRotateWheel.png in Resources */,
 				3BB659D21DE1704C0002B4F7 /* Assets.xcassets in Resources */,
+				3B2E2F801E1A934000C630EE /* tabbar_compose_camera@3x.png in Resources */,
 				3BD38A1B1E0D5B89001B4CA7 /* LuckyRototeSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +563,7 @@
 				3BD38A211E0D5C52001B4CA7 /* KSLWheelButton.m in Sources */,
 				3B37DD101DE9AD8500D5F0BD /* UIImage+KSLExtension.m in Sources */,
 				3BB659E71DE173810002B4F7 /* NSObject+KSLProperty.m in Sources */,
+				3B2E2F4F1E1A8A4000C630EE /* KSLItemButton.m in Sources */,
 				3BB659C71DE1704C0002B4F7 /* AppDelegate.m in Sources */,
 				3B5E50ED1DFD260E0014ECBF /* GroupAnimationViewController.m in Sources */,
 				3B1148461DFC243C00F05002 /* ThirdViewController.m in Sources */,
@@ -506,12 +571,14 @@
 				3B1148431DFC243C00F05002 /* FirstViewController.m in Sources */,
 				3B5E50E41DFCD7130014ECBF /* TransitionViewController.m in Sources */,
 				3B1148411DFC243C00F05002 /* ClockViewController.m in Sources */,
+				3B2E2F581E1A90EC00C630EE /* KSLWeiboMenuViewController.m in Sources */,
 				3BB659EA1DE1769C0002B4F7 /* NSObject+KSLAddProperty.m in Sources */,
 				3BB659F11DE1971E0002B4F7 /* KSLRuntime.m in Sources */,
 				3B37DD191DE9D31D00D5F0BD /* UIView+KSLExtension.m in Sources */,
 				3B1148421DFC243C00F05002 /* DeepShallowCopyViewController.m in Sources */,
 				3BD38A241E0D6216001B4CA7 /* WheelsViewController.m in Sources */,
 				3B1148451DFC243C00F05002 /* SecondViewController.m in Sources */,
+				3B2E2F551E1A8F7A00C630EE /* KSLComponentViewController.m in Sources */,
 				3B01CF8F1DEAD9AC008828C5 /* Quartz2dView.m in Sources */,
 				3BB659FA1DE1B9270002B4F7 /* NSObject+KSLModel.m in Sources */,
 				3B11484D1DFC2E4100F05002 /* UIColor+KSLExtension.m in Sources */,
@@ -523,6 +590,7 @@
 				3BD38A1E1E0D5C00001B4CA7 /* KSLWheelView.m in Sources */,
 				3BB659F71DE1B5730002B4F7 /* KSLStatus.m in Sources */,
 				3BB659C41DE1704C0002B4F7 /* main.m in Sources */,
+				3B2E2F521E1A8B4400C630EE /* KSLMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

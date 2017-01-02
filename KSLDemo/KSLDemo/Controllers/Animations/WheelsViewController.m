@@ -9,6 +9,8 @@
 #import "WheelsViewController.h"
 #import "KSLWheelView.h"
 
+#import "KSLWeiboMenuViewController.h"
+
 @interface WheelsViewController ()
 
 @end
@@ -21,6 +23,7 @@
     self.title = @"转盘";
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self setupSubviews];
+    [self setupNextViewButton];
 }
 
 - (void)setupSubviews
@@ -34,6 +37,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)setupNextViewButton
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44);
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:btn];
+}
+
+- (void)showNextView:(id)sender
+{
+    KSLWeiboMenuViewController *weiboMenu = [[KSLWeiboMenuViewController alloc] init];
+    [self.navigationController pushViewController:weiboMenu animated:YES];
+}
+
+
 
 /*
 #pragma mark - Navigation
